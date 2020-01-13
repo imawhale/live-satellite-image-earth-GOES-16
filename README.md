@@ -5,7 +5,6 @@ For MAC OS X, paste this code into Terminal:
 
 ```
 curl $(curl -s https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G16 | grep -o -e 'https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/[0-9]*_GOES16-ABI-FD-GEOCOLOR-1808x1808.jpg' | head -1) -o earth.jpg && open earth.jpg
-reply
 ```
 
 
